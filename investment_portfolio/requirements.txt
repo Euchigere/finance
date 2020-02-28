@@ -99,3 +99,5 @@ WeasyPrint==49
 webencodings==0.5.1
 Werkzeug==0.16.1
 wrapt==1.11.2
+gunicorn
+psycopg2-binary
