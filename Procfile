@@ -1,0 +1,1 @@
+web: gunicorn investment_portfolio:app
