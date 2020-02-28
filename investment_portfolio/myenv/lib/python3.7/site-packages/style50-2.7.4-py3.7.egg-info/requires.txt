@@ -1,0 +1,7 @@
+argparse
+autopep8>=1.4.3
+icdiff
+jsbeautifier
+python-magic
+termcolor
+jinja2>=2.10

@@ -1,0 +1,12 @@
+attrs>=18
+bs4>=0
+pexpect>=4.6
+lib50<3,>=2
+pyyaml>=3.10
+requests>=2.19
+termcolor>=1.1
+jinja2>=2.10
+
+[develop]
+sphinx
+sphinx_rtd_theme

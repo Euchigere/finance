@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+    <script>
+        function myFunction()
+        {
+            let password = document.querySelector("#password").value;
+            let confirm = document.querySelector("#confirmation").value;
+
+            if (password !== confirm)
+            {
+                for (let x of document.querySelectorAll('.password-error-message'))
+                    x.style.display = 'block';
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+    <form onsubmit="return myFunction();" action="/register"  method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="username" placeholder="Username" type="text" required>
+        </div>
+        <div class="form-group">
+            <input id="password" autocomplete="off" class="form-control" name="password" placeholder="Password" type="password" required>
+            <small class="password-error-message">Password mismatch</small>
+        </div>
+
+        <div class="form-group">
+            <input id="confirmation" autocomplete="off" class="form-control" name="confirmation" placeholder="Confirm Password" type="password" required>
+            <small class="password-error-message">Password mismatch</small>
+        </div>
+        <button id="button" class="btn btn-primary" type="submit">Register</button>
+    </form>
+{% endblock %}

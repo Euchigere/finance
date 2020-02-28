@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: help50
+Version: 3.0.0
+Summary: This is help50, a command-line tool that helps students understand error messages.
+Home-page: https://github.com/cs50/help50
+Author: CS50
+Author-email: sysadmins@cs50.harvard.edu
+License: GPLv3
+Description: UNKNOWN
+Keywords: help50
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development

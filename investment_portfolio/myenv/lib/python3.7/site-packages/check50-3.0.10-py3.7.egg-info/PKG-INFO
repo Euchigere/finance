@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: check50
+Version: 3.0.10
+Summary: This is check50, with which you can check solutions to problems for CS50.
+Home-page: https://github.com/cs50/check50
+Author: CS50
+Author-email: sysadmins@cs50.harvard.edu
+License: GPLv3
+Description: UNKNOWN
+Keywords: check,check50
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Education
+Classifier: Topic :: Utilities
+Requires-Python: >= 3.6
+Provides-Extra: develop
