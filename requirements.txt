@@ -45,7 +45,7 @@ jsbeautifier==1.10.3
 kiwisolver==1.1.0
 lazy-object-proxy==1.4.3
 lib50==2.0.7
-Mako==1.1.1
+Mako==1.2.2
 MarkupSafe==1.1.1
 matplotlib==3.1.3
 mccabe==0.6.1
